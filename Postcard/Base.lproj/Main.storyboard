@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ftt-ZT-hn7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ftt-ZT-hn7">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
@@ -105,6 +105,15 @@
                                     <rect key="frame" x="220" y="142" width="80" height="80"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znu-jD-ntN">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="147" width="187" height="37"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -114,6 +123,7 @@
                                 <exclude reference="ozR-zp-zpf"/>
                                 <exclude reference="z16-ws-qL2"/>
                                 <exclude reference="uXx-C2-MNd"/>
+                                <exclude reference="Znu-jD-ntN"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -123,6 +133,7 @@
                                 <include reference="ozR-zp-zpf"/>
                                 <include reference="z16-ws-qL2"/>
                                 <include reference="uXx-C2-MNd"/>
+                                <include reference="Znu-jD-ntN"/>
                             </mask>
                         </variation>
                     </view>
@@ -133,6 +144,7 @@
                         <outlet property="enterNameTextfield" destination="bGn-lK-2lq" id="ejd-S9-QVh"/>
                         <outlet property="mailButton" destination="ZP1-dG-CAU" id="x59-Ks-Kg8"/>
                         <outlet property="messageLabel" destination="ozR-zp-zpf" id="QEi-qP-Y4g"/>
+                        <outlet property="nameLabel" destination="Znu-jD-ntN" id="3Tm-Rd-Eew"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
